@@ -1,0 +1,103 @@
+/* CSS HEX
+#687864;
+#31708E;
+#5085A5;
+#8FC1E3;
+#F7F9FB;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #F7F9FB;
+}
+
+.book_now {
+    padding: 10px;
+}
+
+.header_text {
+    font-size: 24px;
+}
+
+.book_now_header {
+    text-align: center;
+}
+
+.book_btn {
+    background-color: #31708E;
+    color: #F7F9FB;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+.banner_image {
+    height: auto; 
+    max-width: 50%; 
+    margin-right: 10px;
+}
+
+.book_now{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #687864;
+    color: #F7F9FB;
+    padding: 15px;
+}
+
+.info_panel {
+    background-color: #8FC1E340;
+    padding: 15px;
+}
+
+.info_header {
+    text-align: center;
+}
+
+.form {
+    background-color: #8FC1E340;
+    color: #5085A5;
+    padding: 15px 20px;
+    margin: 40px 20px;
+}
+
+.form_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F7F9FB;
+    margin-top: 30px;
+}
+
+.form_options a {
+    color: #5085A5;
+}
+
+.submit_button {
+    background-color: #5085A5;
+    border: none;
+    border-radius: 5px;
+    color: #F7F9FB;
+    padding: 9px 11px;
+}
+
+.footer {
+    background-color: #5085A5;
+    color: #F7F9FB;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,83 @@
+/* CSS Colors
+
+#687864;
+#31708E;
+#5085A5;
+#8FC1E3;
+#F7F9FB;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #F7F9FB;
+}
+
+.header_text {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #5085A5;
+    font-size: 24px;
+    margin: 5px;
+}
+
+img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.info_header {
+    text-align: center;
+
+}
+
+/* .info_link {
+    background-color: #F7F9FB;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 15px;
+    text-decoration: none;
+} */
+
+.info_panel {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 11px;
+}
+
+a .info_text {
+    color: #687864;
+}
+
+.form_options a {
+    color: #5085A5;
+}
+
+.form_options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F7F9FB;
+    margin-top: 30px;
+}
+
+.submit_button {
+    background-color: #5085A5;
+    border: none;
+    border-radius: 5px;
+    color: #F7F9FB;
+    padding: 9px 11px;
+}
+
+.footer {
+    background-color: #5085A5;
+    color: #F7F9FB;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}

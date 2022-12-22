@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Pet Boarding - Home</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pet Boarding</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <img src="{{ url_for('static', filename='img/pup_one.jpg') }}" class="w-100 header_banner" alt="puppy image">
+        <div class="row book_now">
+            <p class="header_text book_now_header col-sm-12 col-md-6">Open Spots Now Available</p>
+            <p class="col-sm-12 col-md-6 book_now_header"><a href="/login" class="book_btn">Book Now</a></p>
+        </div>
+        <!-- First Banner -->
+        <div class="banner">
+            <div class="banner_text">
+                <p class="header_text">Boarding Services</p>
+                <p class="paragraph_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. More...</p>
+            </div>
+            <img src="{{ url_for('static', filename='img/pup_three.jpg') }}" class="banner_image" alt="puppy image">
+        </div>
+        <!-- Testimonials -->
+        <div class="info_panel">
+            <h1 class="info_header">Testimonials</h1>
+            <div class="row">
+                <div class="info_text col-sm-12 col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur a enim neque iusto illum architecto, voluptas porro? Molestiae similique iusto nulla enim deserunt libero aperiam?</p>
+                    <p class="cust_testimonial">- Jane Doe</p>
+                </div>
+                <div class="info_text col-sm-12 col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur a enim neque iusto illum architecto, voluptas porro? Molestiae similique iusto nulla enim deserunt libero aperiam?</p>
+                    <p class="cust_testimonial">- John Doe</p>
+                </div>
+                <div class="info_text col-sm-12 col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur a enim neque iusto illum architecto, voluptas porro? Molestiae similique iusto nulla enim deserunt libero aperiam?</p>
+                    <p class="cust_testimonial">- Karen Doe</p>
+                </div>
+                <div class="info_text col-sm-12 col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur a enim neque iusto illum architecto, voluptas porro? Molestiae similique iusto nulla enim deserunt libero aperiam?</p>
+                    <p class="cust_testimonial">- Keith Doe</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second Banner -->
+        <div class="banner">
+            <img src="{{ url_for('static', filename='img/pup_three.jpg') }}" class="banner_image w-50" alt="puppy image">
+            <div class="banner_text">
+                <p class="header_text">Doggie Daycare</p>
+                <p class="paragraph_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. More...</p>
+            </div>
+        </div>
+        <p class="footer">&copy; Copyright - Pet Boarding Co.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
