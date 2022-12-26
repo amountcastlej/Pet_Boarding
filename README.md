@@ -1,4 +1,4 @@
-Pet Boarding App - View site [Here](http://18.191.229.121)
+Pet Boarding App
 
 Using micro-framework, Pet owners in need of a vacation can schedule dates they need to board their pet.
 
