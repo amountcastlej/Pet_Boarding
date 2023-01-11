@@ -1,6 +1,6 @@
 <h2>Pet Boarding App</h2>
 
-Using Python micro-framework Flask, Pet owners in need of a vacation can schedule dates they need to board their pet.
+Using Python micro-framework Flask; Pet owners in need of a vacation can schedule dates they need to board their pet.
 
 - Collaborated on a remote team of two, OWNED the site design and responsive user experience
 
